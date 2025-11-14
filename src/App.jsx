@@ -8,6 +8,7 @@ import DashboardPage from './pages/dashboard/DashboardPage';
 import AlumniDirectoryPage from './pages/directory/AlumniDirectoryPage';
 import EventManagementPage from './pages/events/EventManagementPage';
 import ProfilePage from './pages/profile/ProfilePage';
+import GraduatedStudentsPage from './pages/GraduatedStudentsPage';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/directory" element={<AlumniDirectoryPage />} />
         <Route path="/events" element={<EventManagementPage />} />
         <Route path="/profile" element={<ProfilePage />} />
+        <Route path="/graduated-students" element={<GraduatedStudentsPage />} />
       </Routes>
     </div>
   );
